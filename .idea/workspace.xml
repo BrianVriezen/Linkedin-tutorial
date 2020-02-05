@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbb14693-defa-419c-968d-f1d0903accde" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BookingController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BookingController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/bookings/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/bookings/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ShowRoomsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ShowRoomsController.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,61 +18,64 @@
     <session id="-624701193">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="2" />
           <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="editorconfig" value="1" />
           <entry key="env" value="1" />
-          <entry key="php" value="22" />
+          <entry key="php" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key=".env file" value="1" />
           <entry key="Blade" value="12" />
-          <entry key="PHP" value="10" />
+          <entry key="PHP" value="12" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="3164" />
+          <entry key="dummy" value="1" />
+          <entry key="php" value="3245" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Blade" value="1483" />
-          <entry key="PHP" value="1681" />
+          <entry key="PHP" value="1762" />
+          <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BookingController.php">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Room.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
-              <caret line="127" column="1" lean-forward="true" selection-start-line="127" selection-start-column="1" selection-end-line="127" selection-end-column="1" />
-              <folding>
-                <element signature="e#40#56#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/bookings/index.blade.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ShowRoomsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="47" column="24" lean-forward="true" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+            <state relative-caret-position="289">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding>
+                <element signature="e#40#53#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,7 +95,6 @@
         <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/routes/api.php" />
         <option value="$PROJECT_DIR$/resources/views/rooms/index.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ShowRoomsController.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/bookings/show.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/bookings/create.blade.php" />
@@ -100,6 +102,8 @@
         <option value="$PROJECT_DIR$/resources/views/bookings/fields.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/BookingController.php" />
         <option value="$PROJECT_DIR$/resources/views/bookings/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ShowRoomsController.php" />
+        <option value="$PROJECT_DIR$/app/Room.php" />
       </list>
     </option>
   </component>
@@ -210,9 +214,10 @@
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="177" />
-    <option name="width" value="1538" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="202" />
+    <option name="y" value="-23" />
+    <option name="width" value="1539" />
     <option name="height" value="595" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -232,20 +237,20 @@
             <path>
               <item name="Linkedin-Tutorial" type="b2602c69:ProjectViewProjectNode" />
               <item name="Linkedin-Tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Linkedin-Tutorial" type="b2602c69:ProjectViewProjectNode" />
               <item name="Linkedin-Tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Linkedin-Tutorial" type="b2602c69:ProjectViewProjectNode" />
               <item name="Linkedin-Tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="bookings" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -286,18 +291,19 @@
       <workItem from="1580379440982" duration="1403000" />
       <workItem from="1580387859140" duration="6113000" />
       <workItem from="1580727953791" duration="11095000" />
-      <workItem from="1580809132676" duration="4818000" />
+      <workItem from="1580809132676" duration="5418000" />
+      <workItem from="1580899937455" duration="313000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27175000" />
+    <option name="totallyTimeSpent" value="28088000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="142" y="0" width="1230" height="476" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33504274" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2671141" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -388,13 +394,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ShowRoomsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -440,20 +439,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/bookings/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BookingController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="538">
-          <caret line="127" column="1" lean-forward="true" selection-start-line="127" selection-start-column="1" selection-end-line="127" selection-end-column="1" />
+          <caret line="127" column="1" selection-start-line="127" selection-start-column="1" selection-end-line="127" selection-end-column="1" />
           <folding>
             <element signature="e#40#56#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/bookings/index.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ShowRoomsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="47" column="24" lean-forward="true" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+        <state relative-caret-position="289">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#40#53#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Room.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
